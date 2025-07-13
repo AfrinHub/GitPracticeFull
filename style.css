@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.profile-image{
+    width:150px;
+   height:150px;
+   border-radius: 50%;
+   object-fit:cover;
+   border:3px solid  #4CAF50;
+   margin:1rem 0;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4CAF50;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.skill {
+    text-align: left;
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+#contact {
+    background-color: #e0e0e0;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 2rem;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-list a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+
+
+
